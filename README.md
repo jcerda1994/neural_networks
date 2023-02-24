@@ -19,7 +19,7 @@ What variable(s) are neither targets nor features, and should be removed from th
 Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 -50,60,70 neurons, 3 layers, relu and sigmoid
-the reason to use this information is to tell 
+the reason to use more neurons is to get a most accurate model without getting into overfitting the model, adding one more layer and adding another relu function layer to getting a model
 
 Were you able to achieve the target model performance?
 
