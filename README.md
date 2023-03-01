@@ -15,15 +15,16 @@ What variable(s) are considered to be the features for your model?
 What variable(s) are neither targets nor features, and should be removed from the input data?
 - 'EIN','NAME' variables
 
-
 Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 -50,60,70 neurons, 3 layers, relu and sigmoid
-the reason to use more neurons is to get a most accurate model without getting into overfitting the model, adding one more layer and adding another relu function layer to getting a model
+the reason to use more neurons is to get a most accurate model without getting into overfitting the model, adding one more layer and adding another relu function layer to getting a model more accurate.
 
 Were you able to achieve the target model performance?
+-Yes, the accuracy is 0.7271137237548828
 
 What steps did you take to try and increase model performance?
-
+-using more neurons but not so many to not fall in overfitting the model, added one more layer and kept the same activation function
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+-In summary the optimal deep learning model was trained with multiple factors and variables that ultimate helped to increase the accuracy score, first we hot encoded the information in order to get binary numbers in all in our variables, then scale, fit and transform the data, additionally i compile, train and evalute the model using multiple layers and finally getting a result with a good accuracy score. i recommend this model due to its good and elevated accuracy score.
